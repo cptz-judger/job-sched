@@ -1,14 +1,3 @@
-FCFS results:
-job  0: [        0]
-job  1: [        4]
-job  2: [        7]
-job  3: [        9]
-job  4: [       12]
-job  5: [       18]
-job  6: [       23]
-job  7: [       27]
-job  8: [      200]
-job  9: [      201]
 SJF results:
 job  0: [        0]
 job  1: [        7]
