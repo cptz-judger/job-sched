@@ -1,22 +1,2 @@
-FCFS results:
-job  0: [        0]
-job  1: [        4]
-job  2: [        7]
-job  3: [        9]
-job  4: [       12]
-job  5: [       18]
-job  6: [       23]
-job  7: [       27]
-job  8: [      200]
-job  9: [      201]
-SJF results:
-job  0: [        0]
-job  1: [        7]
-job  2: [        5]
-job  3: [        4]
-job  4: [       24]
-job  5: [       19]
-job  6: [       15]
-job  7: [       12]
-job  8: [      200]
-job  9: [      201]
+999fff71
+ea852136
