@@ -56,14 +56,15 @@ void SJF (
 ## 实验流程
 
 1. 创建新的空白分支：`git checkout --orphan job-scheduling`
-2. 创建并填充相关代码文件：
+2. 清除无关文件：`git rm -rf .`
+3. 创建并填充相关代码文件：
    1. 新建 `sched.h` 文件，在其中添加约定的函数签名。
    2. 新建 `sched.c` 文件，在其中：
       1. 包含 `sched.h` 头文件：`#include "sched.h"`
       2. 实现约定的两个函数。
-3. 将文件添加进 Git：`git add sched.h sched.c`
-4. 创建 commit：`git commit -m "commit 信息"`
-5. 推送至 GitLab：`git push -u origin job-scheduling:job-scheduling`
+4. 将文件添加进 Git：`git add sched.h sched.c`
+5. 创建 commit：`git commit -m "commit 信息"`
+6. 推送至 GitLab：`git push -u origin job-scheduling:job-scheduling`
 
 ## 测试样例
 
@@ -91,8 +92,7 @@ int main() {
 编译：
 
 ```sh
-cc -c -o sched.o sched.c
-cc -o main sched.o main.c
+gcc -o main sched.c main.c
 ```
 
 运行：
