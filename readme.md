@@ -56,7 +56,7 @@ void SJF (
 ## 实验流程
 
 1. 创建新的空白分支：`git checkout --orphan job-scheduling`
-2. 清除无关文件：`git rm -rf .`
+2. 清除无关文件：`git rm -rf . && rm -rf *`
 3. 创建并填充相关代码文件：
    1. 新建 `sched.h` 文件，在其中添加约定的函数签名。
    2. 新建 `sched.c` 文件，在其中：
