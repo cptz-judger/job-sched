@@ -1,6 +1,6 @@
-## 实验内容
+## 实践内容
 
-本次实验的内容是实现任务调度的先来先服务（FCFS）算法和短作业优先（SJF）算法。
+本次实践的内容是实现任务调度的先来先服务（FCFS）算法和短作业优先（SJF）算法。
 
 函数签名约定如下：
 
@@ -55,7 +55,7 @@ void SJF (
 | **5** | $10$ | $0 \le n\le 20$ |  $0\le s_i \le 10^6$，$1\le r_i \le 10^6$ | FCFS + SJF |
 | **6** | $10$ | $0 \le n\le 2000$ | $0\le s_i \le 10^6$，$1\le r_i \le 10^6$ | FCFS + SJF |
 
-## 实验流程
+## 实践流程（在跳板机中操作）
 
 1. 创建新的空白分支：`git checkout --orphan job-scheduling`
 2. 清除无关文件：`git rm -rf . && rm -rf *`
@@ -67,6 +67,7 @@ void SJF (
 4. 将文件添加进 Git：`git add sched.h sched.c`
 5. 创建 commit：`git commit -m "commit 信息"`
 6. 推送至 GitLab：`git push -u origin job-scheduling:job-scheduling`
+7. 点击本页面右上角的切换按钮，提交评测。
 
 ## 测试样例
 
