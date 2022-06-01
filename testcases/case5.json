@@ -1,0 +1,17 @@
+{
+    "env": "env5",
+    "description": "综合小样例",
+    "compile": {
+        "command": "make",
+        "timeout": 5
+    },
+    "execute": {
+        "use-container": true,
+        "command": "./main < ./sched.in",
+        "timeout": 1
+    },
+    "judge": {
+        "command": "python3 ./utils/same.py ./resources/sched5.out",
+        "timeout": 2
+    }
+}
